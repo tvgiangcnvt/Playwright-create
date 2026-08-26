@@ -1,0 +1,10 @@
+﻿
+
+    Directory: D:\09. Playwright-create
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                
+----                 -------------         ------ ----                                                                                                                                                                
+-a----         8/26/2026  12:19 PM              0 check.txt                                                                                                                                                           
+
+

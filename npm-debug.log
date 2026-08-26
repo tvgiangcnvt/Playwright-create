@@ -1,0 +1,35 @@
+﻿npm : npm verb cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+At line:1 char:1
++ npm install lodash --registry https://registry.npmjs.org --loglevel v ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm verb cli C:...\bin\npm-cli.js:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm info using npm@9.6.4
+npm info using node@v20.0.0
+npm verb title npm install lodash
+npm verb argv "install" "lodash" "--registry" "https://registry.npmjs.org" "--loglevel" "verbose"
+npm verb logfile logs-max:10 dir:C:\Users\TVG\AppData\Local\npm-cache\_logs\2026-08-26T06_13_51_873Z-
+npm verb logfile C:\Users\TVG\AppData\Local\npm-cache\_logs\2026-08-26T06_13_51_873Z-debug-0.log
+npm verb type system
+npm verb stack FetchError: request to https://registry.npmjs.org/lodash failed, reason: Socket connection timeout
+npm verb stack     at ClientRequest.<anonymous> (C:\Users\TVG\AppData\Local\nvm\v20.0.0\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+npm verb stack     at ClientRequest.emit (node:events:511:28)
+npm verb stack     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+npm verb stack     at TLSSocket.emit (node:events:523:35)
+npm verb stack     at emitErrorNT (node:internal/streams/destroy:151:8)
+npm verb stack     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+npm verb stack     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+npm verb cwd D:\09. Playwright-create
+npm verb Windows_NT 10.0.19045
+npm verb node v20.0.0
+npm verb npm  v9.6.4
+npm ERR! code ERR_SOCKET_CONNECTION_TIMEOUT
+npm ERR! errno ERR_SOCKET_CONNECTION_TIMEOUT
+npm ERR! request to https://registry.npmjs.org/lodash failed, reason: Socket connection timeout
+npm verb exit 1
+npm verb unfinished npm timer reify 1787724831917
+npm verb unfinished npm timer reify:loadTrees 1787724831921
+npm verb code 1
+
+npm ERR! A complete log of this run can be found in: C:\Users\TVG\AppData\Local\npm-cache\_logs\2026-08-26T06_13_51_873Z-debug-0.log

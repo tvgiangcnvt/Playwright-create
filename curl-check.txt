@@ -1,0 +1,35 @@
+﻿curl.exe :   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+At line:1 char:1
++ curl.exe -I --connect-timeout 10 https://registry.npmmirror.com 2>&1  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  % Total    % ...  Time  Current:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0  1296    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0  1296    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/json; charset=utf-8
+Content-Length: 1296
+Connection: keep-alive
+Strict-Transport-Security: max-age=5184000
+Date: Wed, 26 Aug 2026 05:24:48 GMT
+Vary: Origin
+request-id: 38e1aa9c-d85e-4ec7-b122-e6d3c1c80040
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-readtime: 0.603
+Via: vn41.l1, ens-cache2.vn41, l2vn3.l2, cache23.l2vn3, registry.npmmirror.com-04, cache23.l2vn3[424,423,200-0,M], cache14.l2vn3[425,0], ens-cache2.vn41[425,424,200-0,M], ens-cache10.vn41[427,0]
+Ali-Swift-Global-Savetime: 1787721888
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-SaveTime: Wed, 26 Aug 2026 05:24:48 GMT
+X-Swift-CacheTime: 0
+Timing-Allow-Origin: *
+EagleId: 80012d9e17877218878902702e
+
