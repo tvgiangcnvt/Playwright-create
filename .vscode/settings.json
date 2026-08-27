@@ -1,0 +1,24 @@
+{
+    // Cho phép Code Runner chạy trong terminal tích hợp (cần để xem output của playwright)
+    "code-runner.runInTerminal": true,
+
+    // Chạy file khi nhấn nút ▶️ bên cạp số dòng
+    "code-runner.executorMap": {
+        "typescript": "npx playwright test \"$fullFileName\"",
+        "javascript": "npx playwright test \"$fullFileName\"",
+        "python": "python -u",
+        "shell": "bash"
+    },
+
+    // Xóa terminal cũ trước khi chạy lại
+    "code-runner.clearTerminal": true,
+
+    // Tự động chọn file hiện hành
+    "code-runner.executorMapByFile": true,
+
+    // Chạy file hiện tại theo nút bấm bên cạp dòng
+    "code-runner.showRunButton": false,
+
+    // Hiển thị nút chạy ở góc editor (nút ▶️ chung)
+    "code-runner.showRunButtonInline": true
+}
